@@ -34,7 +34,11 @@ GIT
         git reset id_acrchivo --hard ==> trae de vuelta el archivo con esa id
             //borra todos los log descartados//
         git reset id_acrchivo --soft ==> mantiene en staging los cambios que hayan
-
+        para ver una versión de un archivo ==>
+            git checkout id_acrchivo archivo, lo modifica
+                //no hacer commit//
+        y para devolverlo a la ultima version ==>
+            git checkout master archivo.. y todo ok
 
         
         
