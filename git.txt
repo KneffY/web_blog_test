@@ -18,7 +18,8 @@ GIT
             ==> lo agrego al staging (git add archivo)
         - una vez ahi puedo agregar mas o removerlo del staging
         - git rm archivo ==> remueve archivo de staging
-            git mr --cached archivo ==> remueve de staging
+            git rm --cached archivo ==> remueve de staging
+            git rm --force ==> borra todo
         - para enviar archivo a repositorio ==>
             ==> git commit -m "mensaje"
         - nombre del repositorio es "master" donde se guardan todos los cambios
@@ -34,6 +35,7 @@ GIT
         git reset id_acrchivo --hard ==> trae de vuelta el archivo con esa id
             //borra todos los log descartados//
         git reset id_acrchivo --soft ==> mantiene en staging los cambios que hayan
+        git reset HEAD ==> saca los archivos del staging
         para ver una versión de un archivo ==>
             git checkout id_acrchivo archivo, lo modifica
                 //no hacer commit//
