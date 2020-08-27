@@ -1,0 +1,40 @@
+GIT 
+    sintaxis:
+        git init ==> inicia git, crea un repositorio
+        git add archivo ==> abre y vincula archivo, le dice que existe
+        git commit -m "version archivo" ==> guarda cambios en version
+        git add . ==> vincula todos los archivos que hayan cambiado
+        git status ==> muestra status, si falta agregar un cambio por ejemplo
+        git show ==> muestra todos los ulyimos cambios hechos
+        git log archivo ==> muestra todo lo hecho con archivo
+        code ==> abre VisualStudioCode c:
+        git diff ==> ultimos cambios realizados
+        git diff commit_code_1 commit_code_2 ==> diferencias entre ambas versiones
+    directory -------- staging -------- repository
+        - git init crea staging (ram) y crea repository (/.git/)
+        - en /.git/ se guardan los cambios finales
+        - una vez modificado el archivo ==>
+            ==> lo agrego al staging (git add archivo)
+        - una vez ahi puedo agregar mas o removerlo del staging
+        - git rm archivo ==> remueve archivo de staging
+            git mr --cached archivo ==> remueve de staging
+        - para enviar archivo a repositorio ==>
+            ==> git commit -m "mensaje"
+        - nombre del repositorio es "master" donde se guardan todos los cambios
+        - estados:
+            untraked -------- traked --------none/saved
+        - para traer de vuelta cambios se usa checkout
+        - cada commit es una nueva version del archivo 
+
+    ramas:
+        master -------- experimentos -------- bugfixing
+        merge ==> unir cambios de una rama con otra
+    traer de vuelta cambios:
+        git reset id_acrchivo --hard ==> trae de vuelta el archivo con esa id
+            //borra todos los log descartados//
+        git reset id_acrchivo --soft ==> mantiene en staging los cambios que hayan
+
+
+        
+        
+        
