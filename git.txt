@@ -27,7 +27,6 @@ GIT
             untraked -------- traked --------none/saved
         - para traer de vuelta cambios se usa checkout
         - cada commit es una nueva version del archivo 
-
     ramas:
         master -------- experimentos -------- bugfixing
         merge ==> unir cambios de una rama con otra
@@ -41,7 +40,13 @@ GIT
                 //no hacer commit//
         y para devolverlo a la ultima version ==>
             git checkout master archivo.. y todo ok
-
+    git online:
+        git clone url ==> trae los archivos y commits desde url
+        add,commit + git push ==> envia ultimos commits a url
+        git fetch ==> trae actualizaciones a repositorio, pero no archivos
+        git merge ==> clona los archivos actualizados
+        git pull ==> fetch+merge, trae copia actualizada
+        
         
         
         
