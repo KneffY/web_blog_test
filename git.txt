@@ -1,9 +1,12 @@
 GIT 
+
     sintaxis:
         git init ==> inicia git, crea un repositorio
         git add archivo ==> abre y vincula archivo, le dice que existe
         git commit -m "version archivo" ==> guarda cambios en version
         git add . ==> vincula todos los archivos que hayan cambiado
+        git commit -am "comentario" ==> add y commit juntos
+            //solo en archivos ya pasados por commit//
         git status ==> muestra status, si falta agregar un cambio por ejemplo
         git show ==> muestra todos los ulyimos cambios hechos
         git log archivo ==> muestra todo lo hecho con archivo
@@ -11,6 +14,7 @@ GIT
         code ==> abre VisualStudioCode c:
         git diff ==> ultimos cambios realizados
         git diff commit_code_1 commit_code_2 ==> diferencias entre ambas versiones
+    
     directory -------- staging -------- repository
         - git init crea staging (ram) y crea repository (/.git/)
         - en /.git/ se guardan los cambios finales
@@ -27,9 +31,18 @@ GIT
             untraked -------- traked --------none/saved
         - para traer de vuelta cambios se usa checkout
         - cada commit es una nueva version del archivo 
+
     ramas:
         master -------- experimentos -------- bugfixing
         merge ==> unir cambios de una rama con otra
+        crear otra rama es copiar ultimo commit en otra área
+        git branch "nombre_rama" ==> crea rama
+        git checkout rama ==> me dirijo a rama
+        los cambios en una rama solo se guardan en esa rama
+        al hacer merge la nueva rama desaparece en master
+        git branch ==> nombra las ramas existentes
+        (master) git merge (rama) ==> fusiona sobre master borrando rama
+
     traer de vuelta cambios:
         git reset id_acrchivo --hard ==> trae de vuelta el archivo con esa id
             //borra todos los log descartados//
@@ -40,6 +53,7 @@ GIT
                 //no hacer commit//
         y para devolverlo a la ultima version ==>
             git checkout master archivo.. y todo ok
+
     git online:
         git clone url ==> trae los archivos y commits desde url
         add,commit + git push ==> envia ultimos commits a url
