@@ -68,6 +68,7 @@ GIT
             ==> <<<rama1
             ==> ---
             ==> >>>rama2
+            y ante eso yo elijo cual en VSCode c:
         
         
         
