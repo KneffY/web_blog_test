@@ -61,7 +61,7 @@ GIT
         git merge ==> clona los archivos actualizados
         git pull ==> fetch+merge, trae copia actualizada
 
-    resolucion de conflictos al merge
+    resolucion de conflictos al merge:
         si modifico las mismas lineas en 2 ramas y las uno al hacer
         merge git arroja un eror
         la sixtaxis de un conflicto en texto es ==>
@@ -69,7 +69,11 @@ GIT
             ==> ---
             ==> >>>rama2
             y ante eso yo elijo cual en VSCode c:
-        
-        
+
+    GitHub:
+        git remote add origin github_url ==> sube mi repositorio a GitHub
+        git remote ==> muestra mi origin
+        git remote -v ==> muestra tambien que puedo hacer push y fetch
+        git push origin master ==> envia master a origin
         
         
