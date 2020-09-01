@@ -75,5 +75,8 @@ GIT
         git remote ==> muestra mi origin
         git remote -v ==> muestra tambien que puedo hacer push y fetch
         git push origin master ==> envia master a origin
+        git pull origin master --allow-unrelated-histories ==>
+            ==> soluciona error de historias commit no relacionadas
+        jejeje a borrar
         
         
