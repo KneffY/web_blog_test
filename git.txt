@@ -77,6 +77,9 @@ GIT
         git push origin master ==> envia master a origin
         git pull origin master --allow-unrelated-histories ==>
             ==> soluciona error de historias commit no relacionadas
-        jejeje a borrar
+
+    Llaves git-GitHub:
+        las llaves son por persona, se crea en home/
+        mucho texto
         
         
