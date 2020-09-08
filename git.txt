@@ -81,5 +81,33 @@ GIT
     Llaves git-GitHub:
         las llaves son por persona, se crea en home/
         es el medio webeo... pero uno por pc, afortunadamente :L
+
+    Especialidad de git log:
+        git log --all --graph ==> muestra todos los commits con rayas
+        git log --all --graph --decorate --oneline ==> una belleza
+    
+    Alias: 
+        alias apodo_comando "comando" ==> escribiendo apodo_comando se ejecuta comando
+    
+    TAGs:
+        para tener visualente claro que versió es cada commit
+        git tag -a vNN(números) -m "version blabla" id_commit ==> etiqueto la version del archivo
+        git tag ==> muestra los tags 
+        git show-ref --tags ==> lo mismo con mucho mas detalle
+        git push origin --tags ==> envia tags a origin
+        es muy util para etiquetar claramente en GitHub
+        git tag -d vNN ==> elimina tag vNN
+            ==> volver a hacer pull y push_tag (buena practica y necesario)
+        git push origin :refs/tags/vNN ==> elimina referencia a tag en origin
+    
+    GitHub ramas:
+        gitk ==> un log muuuuy visual e intuitivo con mucho detalle
+        Escenario:
+            soy nuevo y quiero bajar un repositorio online
+            git clone repository_url ==> baje el repositorio y se puede
+                hacer pull y push
+        desde github se debe agregar usuario para que pueda editar:
+        github/repository_settings/collaborators/--agregar correo c:
+            o username si el correo es privado
         
         
