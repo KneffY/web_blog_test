@@ -80,6 +80,6 @@ GIT
 
     Llaves git-GitHub:
         las llaves son por persona, se crea en home/
-        mucho texto
+        es el medio webeo... pero uno por pc, afortunadamente :L
         
         
