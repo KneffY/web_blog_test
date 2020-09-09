@@ -109,5 +109,9 @@ GIT
         desde github se debe agregar usuario para que pueda editar:
         github/repository_settings/collaborators/--agregar correo c:
             o username si el correo es privado
+    
+    Pull request:
+        estado intermedio antes de enviar un merge a la rama de pruebas
+        solo github tiene pull request
         
         
