@@ -113,5 +113,9 @@ GIT
     Pull request:
         estado intermedio antes de enviar un merge a la rama de pruebas
         solo github tiene pull request
-        
+    
+    Fork:
+        bifurcacion, crear una copia o clonar un proyecto
+        es una opción en GitHub
+        git clone github_url
         
