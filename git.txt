@@ -118,4 +118,20 @@ GIT
         bifurcacion, crear una copia o clonar un proyecto
         es una opción en GitHub
         git clone github_url
+
+    Ignorar archivos:
+        crear .gitignore ==> crea una lista de los objetos a Ignorar
+        entro con un editor de texto y los añado
+            *.jpg ==> ignora todos los terminados en jpg
+        peeero si debo agregar .gitignore
+            imgur.com subir imagenes y referenciarlas en html c:
+    
+    Mi web:
+        repositorio con mi username c:
+        index.html
+
+    manejo de errores con rebase:
+        agarrar una rama entera y pegarla a la historia original
+            muy mala practica
+            
         
